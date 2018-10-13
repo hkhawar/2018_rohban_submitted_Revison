@@ -1,4 +1,3 @@
-#setwd("~/Desktop/Mohammad_paper/TA/code/")
 #!/usr/bin/env Rscript
 
 args = commandArgs(trailingOnly = T)
@@ -151,8 +150,6 @@ for (i in 1:length(sql.path)) {
     
     profile <- cbind(profile, pmeta)
     readr::write_csv(profile, paste0("../FA/", plate.list[i], "_FA_", operation[l], ".csv"))
-    
-    print("13")
     
   }
   
