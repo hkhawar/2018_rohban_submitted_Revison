@@ -1,8 +1,4 @@
 #!/usr/bin/env Rscript
-#setwd("~/Desktop/Mohammad_paper/TA/code/")
-#setwd("~/Desktop/Mohammad_paper/Bioactives-BBBC022-Gustafsdottir/code/")
-setwd("~/Desktop/Mohammad_paper/CDRP/code/")
-
 rm(list = ls())
 args = commandArgs(trailingOnly = T)
 
