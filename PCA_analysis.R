@@ -1,5 +1,3 @@
-
-#setwd("/Users/habbasi/Desktop/Mohammad_paper/TA/code")
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly = T)
 
